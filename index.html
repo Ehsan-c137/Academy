@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+
+      <link rel="stylesheet" href="./style/index.css" />
+      <link rel="stylesheet" href="./dist/loadingbar/loading-bar.min.css" />
+
+      <link href="dist/vanillaCalendar.css" rel="stylesheet" />
+
+      <script
+         type="module"
+         src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+      ></script>
+      <script
+         nomodule
+         src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+      ></script>
+      <title>Academy</title>
+   </head>
+   <body>
+      <main class="main">
+         <nav class="nav">
+            <div class="nav__logo">
+               <img
+                  src="./assets/images/logo.svg"
+                  alt="Academy logo"
+                  class="nav__logo__image"
+               />
+               <p class="nav__logo__name">Academy</p>
+            </div>
+            <ul class="nav__pages">
+               <li class="nav__pages__item-active nav__pages__item">
+                  <lord-icon
+                     src="https://cdn.lordicon.com/hbwqfgcf.json"
+                     trigger="hover"
+                     colors="primary:#121331,secondary:#4f1091"
+                     style="height: 40px; width: 40px"
+                  >
+                  </lord-icon>
+                  Dashboard
+               </li>
+               <li class="nav__pages__item">
+                  <lord-icon
+                     src="https://cdn.lordicon.com/rfnfarqt.json"
+                     colors="outline:#121331,primary:#c74b16,secondary:#ffc738"
+                     trigger="hover"
+                     colors="primary:#121331,secondary:#6c16c7"
+                     style="height: 40px; width: 40px"
+                  >
+                  </lord-icon>
+                  Courses
+               </li>
+               <li class="nav__pages__item">
+                  <lord-icon
+                     src="https://cdn.lordicon.com/gzmgulpl.json"
+                     colors="outline:#121331,primary:#9cc2f4,secondary:#ebe6ef"
+                     trigger="hover"
+                     colors="primary:#4f1091,secondary:#6c16c7"
+                     style="height: 40px; width: 40px"
+                  >
+                  </lord-icon>
+                  Chats
+               </li>
+               <li class="nav__pages__item">
+                  <lord-icon
+                     src="https://cdn.lordicon.com/hbwqfgcf.json"
+                     trigger="hover"
+                     colors="outline:#121331,primary:#c71f16,secondary:#a5e830,tertiary:#3080e8"
+                     style="height: 40px; width: 40px"
+                  >
+                  </lord-icon>
+                  Grades
+               </li>
+               <li class="nav__pages__item">
+                  <lord-icon
+                     src="https://cdn.lordicon.com/osvvqecf.json"
+                     trigger="hover"
+                     colors="outline:#121331,primary:#f24c00,secondary:#ebe6ef,tertiary:#66a1ee"
+                     state="hover-2"
+                     style="height: 40px; width: 40px"
+                  >
+                  </lord-icon>
+                  Schedule
+               </li>
+               <li class="nav__pages__item">
+                  <lord-icon
+                     src="https://cdn.lordicon.com/sbiheqdr.json"
+                     trigger="hover"
+                     style="height: 40px; width: 40px"
+                     colors="primary:#320a5c,secondary:#4f1091"
+                  >
+                  </lord-icon>
+                  Setting
+               </li>
+            </ul>
+            <div class="subscribe__container">
+               <img
+                  src="./assets/images/subscribepic.svg"
+                  alt="subscribe to us"
+                  class="subscribe__image"
+               />
+               <p class="subscribe__header">Premium Subscription</p>
+               <p class="subscribe__text">
+                  Buy premium and get access to new courses
+               </p>
+               <button class="subscribe__button">More detaild</button>
+            </div>
+         </nav>
+         <section class="dashboard">
+            <div class="dashboard__header">
+               <h1>Dashboard</h1>
+               <div class="dashboard__form-ring">
+                  <div class="dashboard__search__container">
+                     <div class="dashboard__search__icon">
+                        <lord-icon
+                           src="https://cdn.lordicon.com/osbjlbsb.json"
+                           trigger="hover"
+                        >
+                        </lord-icon>
+                     </div>
+                     <input
+                        type="text"
+                        placeholder="Search"
+                        class="dashboard__search__input"
+                     />
+                  </div>
+                  <div class="dashboard__notification">
+                     <ion-icon name="notifications-sharp"></ion-icon>
+                  </div>
+               </div>
+            </div>
+            <div class="dashboard__courses__container">
+               <p class="dashboard__courses__header">New Courses</p>
+               <div class="dashboard__courses__i-container">
+                  <div class="dashboard__courses__i dashboard__courses__geo">
+                     <div class="dashboard__courses__wrapper">
+                        <img
+                           class="dashboard__courses__i-image"
+                           src="./assets/images/geography.svg"
+                           alt="geography course"
+                        />
+                        <p class="dashboard__courses__i-header">Geography</p>
+                        <p class="dashboard__courses__i-lesson-c">12 lessons</p>
+                     </div>
+                     <div class="dashboard__courses__i-bottom">
+                        <div class="dashboard__courses__i-bottom-profiles">
+                           <img
+                              class="dashboard__courses__i-avatar"
+                              src="./assets/images/avatars/avt-1.jpg"
+                              alt="avatar"
+                           />
+                           <img
+                              class="dashboard__courses__i-avatar"
+                              src="./assets/images/avatars/avt-2.jpg"
+                              alt="avatar"
+                           />
+                           <img
+                              class="dashboard__courses__i-avatar"
+                              src="./assets/images/avatars/avt-3.jpg"
+                              alt="avatar"
+                           />
+                        </div>
+                        <button class="dashboard__courses__i-btn">
+                           <lord-icon
+                              src="https://cdn.lordicon.com/wnkegycl.json"
+                              trigger="hover"
+                           >
+                           </lord-icon>
+                        </button>
+                     </div>
+                  </div>
+                  <div
+                     class="dashboard__courses__i dashboard__courses__javascript"
+                  >
+                     <div class="dashboard__courses__wrapper">
+                        <img
+                           class="dashboard__courses__i-image"
+                           src="./assets/images/javascriptimage.svg"
+                           alt="geography course"
+                        />
+                        <p class="dashboard__courses__i-header">JavaScript</p>
+                        <p class="dashboard__courses__i-lesson-c">15 lessons</p>
+                     </div>
+                     <div class="dashboard__courses__i-bottom">
+                        <div class="dashboard__courses__i-bottom-profiles">
+                           <img
+                              class="dashboard__courses__i-avatar"
+                              src="./assets/images/avatars/avt-4.jpg"
+                              alt="avatar"
+                           />
+                           <img
+                              class="dashboard__courses__i-avatar"
+                              src="./assets/images/avatars/avt-5.jpg"
+                              alt="avatar"
+                           />
+                           <img
+                              class="dashboard__courses__i-avatar"
+                              src="./assets/images/avatars/avt-6.jpg"
+                              alt="avatar"
+                           />
+                        </div>
+                        <button class="dashboard__courses__i-btn">
+                           <lord-icon
+                              src="https://cdn.lordicon.com/wnkegycl.json"
+                              trigger="hover"
+                           >
+                           </lord-icon>
+                        </button>
+                     </div>
+                  </div>
+                  <div
+                     class="dashboard__courses__i dashboard__courses__photography"
+                  >
+                     <div class="dashboard__courses__wrapper">
+                        <img
+                           class="dashboard__courses__i-image"
+                           src="./assets/images/camera.svg"
+                           alt="geography course"
+                        />
+                        <p class="dashboard__courses__i-header">Photography</p>
+                        <p class="dashboard__courses__i-lesson-c">11 lessons</p>
+                     </div>
+                     <div class="dashboard__courses__i-bottom">
+                        <div class="dashboard__courses__i-bottom-profiles">
+                           <img
+                              class="dashboard__courses__i-avatar"
+                              src="./assets/images/avatars/avt-7.jpg"
+                              alt="avatar"
+                           />
+                           <img
+                              class="dashboard__courses__i-avatar"
+                              src="./assets/images/avatars/avt-8.jpg"
+                              alt="avatar"
+                           />
+                           <img
+                              class="dashboard__courses__i-avatar"
+                              src="./assets/images/avatars/avt-9.jpg"
+                              alt="avatar"
+                           />
+                        </div>
+                        <button class="dashboard__courses__i-btn">
+                           <lord-icon
+                              src="https://cdn.lordicon.com/wnkegycl.json"
+                              trigger="hover"
+                           >
+                           </lord-icon>
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="mycourses">
+               <div class="mycourses__header">My Courses</div>
+               <div class="mycourses__main">
+                  <table class="mycourses__table">
+                     <thead class="mycourses__thead">
+                        <tr>
+                           <th>Course name</th>
+                           <th>Start</th>
+                           <th>Rate</th>
+                           <th>Level</th>
+                        </tr>
+                     </thead>
+                     <!--  -->
+                     <tbody class="mycourses__tbody">
+                        <tr>
+                           <td class="mycourses__name__container">
+                              <lord-icon
+                                 class="mycourses__name__image webdesign_course"
+                                 src="https://cdn.lordicon.com/qfzvbrrn.json"
+                                 colors="outline:#121331,primary:#f4b69c,secondary:#ebe6ef"
+                                 trigger="hover"
+                              >
+                              </lord-icon>
+                              <div class="mycourses__name__wrapper">
+                                 <p class="mycourses__name">Web Design</p>
+                                 <p class="mycourses__name__lessons-number">
+                                    10 lessons
+                                 </p>
+                              </div>
+                           </td>
+                           <td class="mycourses__date">May 15</td>
+                           <td class="mycourses__rate">4.8</td>
+                           <td class="mycourses__level">Intermediate</td>
+                        </tr>
+
+                        <tr>
+                           <td class="mycourses__name__container">
+                              <lord-icon
+                                 class="mycourses__name__image development-basics_course"
+                                 src="https://cdn.lordicon.com/meqqbzid.json"
+                                 trigger="hover"
+                              >
+                              </lord-icon>
+                              <div class="mycourses__name__wrapper">
+                                 <p class="mycourses__name">
+                                    Development Basics
+                                 </p>
+                                 <p class="mycourses__name__lessons-number">
+                                    10 lessons
+                                 </p>
+                              </div>
+                           </td>
+                           <td class="mycourses__date">May 16</td>
+                           <td class="mycourses__rate">4.4</td>
+                           <td class="mycourses__level">Basic</td>
+                        </tr>
+
+                        <tr>
+                           <td class="mycourses__name__container">
+                              <lord-icon
+                                 class="mycourses__name__image py_course"
+                                 src="https://cdn.lordicon.com/iehnmktd.json"
+                                 trigger="hover"
+                              >
+                              </lord-icon>
+                              <div class="mycourses__name__wrapper">
+                                 <p class="mycourses__name">Data with Python</p>
+                                 <p class="mycourses__name__lessons-number">
+                                    10 lessons
+                                 </p>
+                              </div>
+                           </td>
+                           <td class="mycourses__date">May 17</td>
+                           <td class="mycourses__rate">4.3</td>
+                           <td class="mycourses__level">Pro</td>
+                        </tr>
+
+                        <tr>
+                           <td class="mycourses__name__container">
+                              <lord-icon
+                                 class="mycourses__name__image html_course"
+                                 src="https://cdn.lordicon.com/nholumov.json"
+                                 colors="outline:#121331,primary:#e88c30,secondary:#ffffff"
+                                 trigger="hover"
+                              >
+                              </lord-icon>
+                              <div class="mycourses__name__wrapper">
+                                 <p class="mycourses__name">HTML basics</p>
+                                 <p class="mycourses__name__lessons-number">
+                                    10 lessons
+                                 </p>
+                              </div>
+                           </td>
+                           <td class="mycourses__date">May 19</td>
+                           <td class="mycourses__rate">4.8</td>
+                           <td class="mycourses__level">Intermediate</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </div>
+         </section>
+         <section class="profile__container">
+            <div class="profile__header">
+               <p class="profile__header__text">Profile</p>
+               <lord-icon
+                  class="profile__edit"
+                  src="https://cdn.lordicon.com/alzqexpi.json"
+                  trigger="hover"
+               >
+               </lord-icon>
+            </div>
+            <div class="profile__photo__container">
+               <div class="profile__photo">
+                  <img src="./assets/images/avatars/avt-2.jpg" alt="avatar" />
+               </div>
+
+               <div class="profile__photo__name">
+                  Ehsan Mousavi
+                  <ion-icon
+                     name="checkmark-circle"
+                     class="profile__photo__name-check"
+                  ></ion-icon>
+               </div>
+               <p class="profile__photo__level">Intermediate</p>
+               <div class="calendar">
+                  <div id="v-cal">
+                     <div class="vcal-header">
+                        <button
+                           class="vcal-btn"
+                           data-calendar-toggle="previous"
+                        >
+                           <svg
+                              height="24"
+                              version="1.1"
+                              viewbox="0 0 24 24"
+                              width="24"
+                              xmlns="http://www.w3.org/2000/svg"
+                           >
+                              <path
+                                 d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"
+                              ></path>
+                           </svg>
+                        </button>
+
+                        <div
+                           class="vcal-header__label"
+                           data-calendar-label="month"
+                        >
+                           March 2017
+                        </div>
+
+                        <button class="vcal-btn" data-calendar-toggle="next">
+                           <svg
+                              height="24"
+                              version="1.1"
+                              viewbox="0 0 24 24"
+                              width="24"
+                              xmlns="http://www.w3.org/2000/svg"
+                           >
+                              <path
+                                 d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"
+                              ></path>
+                           </svg>
+                        </button>
+                     </div>
+                     <div class="vcal-week">
+                        <span>Mon</span>
+                        <span>Tue</span>
+                        <span>Wed</span>
+                        <span>Thu</span>
+                        <span>Fri</span>
+                        <span>Sat</span>
+                        <span>Sun</span>
+                     </div>
+                     <div class="vcal-body" data-calendar-area="month"></div>
+                  </div>
+               </div>
+            </div>
+            <div class="homework">
+               <p class="homework__header">homework progress</p>
+               <div class="homework__item">
+                  <div class="wrapper">
+                     <div
+                        style="height: 50px; width: 50px"
+                        class="ldBar label-center"
+                        id="progress-1"
+                        data-value="55"
+                        data-preset="circle"
+                     ></div>
+                     <!--  -->
+                     <div class="homework__item__name">
+                        <p>styling with CSS</p>
+                        <p>10 tasks</p>
+                     </div>
+                  </div>
+                  <ion-icon
+                     name="chevron-forward"
+                     class="homework__item__more"
+                  ></ion-icon>
+               </div>
+               <div class="homework__item">
+                  <div class="wrapper">
+                     <div
+                        style="height: 50px; width: 50px"
+                        class="ldBar label-center"
+                        id="progress-1"
+                        data-value="90"
+                        data-preset="circle"
+                     ></div>
+                     <!--  -->
+                     <div class="homework__item__name">
+                        <p>Learning JS</p>
+                        <p>11 tasks</p>
+                     </div>
+                  </div>
+                  <ion-icon
+                     name="chevron-forward"
+                     class="homework__item__more"
+                  ></ion-icon>
+               </div>
+               <div class="homework__item">
+                  <div class="wrapper">
+                     <div
+                        style="height: 50px; width: 50px"
+                        class="ldBar label-center"
+                        id="progress-1"
+                        data-value="70"
+                        data-preset="circle"
+                     ></div>
+                     <!--  -->
+                     <div class="homework__item__name">
+                        <p>UI & UX</p>
+                        <p>14 tasks</p>
+                     </div>
+                  </div>
+                  <ion-icon
+                     name="chevron-forward"
+                     class="homework__item__more"
+                  ></ion-icon>
+               </div>
+            </div>
+         </section>
+      </main>
+
+      <script src="./JS/app.js"></script>
+      <script
+         src="./dist/loadingbar/loading-bar.min.js"
+         type="text/javascript"
+      ></script>
+      <script src="dist/vanillaCalendar.js" type="text/javascript"></script>
+      <script>
+         window.addEventListener("load", function () {
+            vanillaCalendar.init({
+               disablePastDays: true,
+            });
+         });
+      </script>
+   </body>
+</html>

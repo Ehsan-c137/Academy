@@ -1,0 +1,93 @@
+.profile {
+   &__container {
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+
+      padding: 1rem;
+   }
+   &__edit {
+      background-color: rgba(95, 95, 95, 0.142);
+      cursor: pointer;
+      border-radius: 1rem;
+   }
+   &__header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      &__text {
+         font-weight: 500;
+      }
+   }
+   &__photo {
+      &__container {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         gap: 0.5rem;
+      }
+      img {
+         border-radius: 50%;
+         width: 8rem;
+      }
+      &__name {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         gap: 0.5rem;
+         font-weight: 500;
+         &-check {
+            color: rgb(0, 179, 255);
+         }
+      }
+
+      &__level {
+         text-align: center;
+      }
+   }
+}
+
+// homework progress
+.homework {
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+   overflow-y: auto;
+   &__header {
+      font-size: 1.6rem;
+      font-weight: 500;
+   }
+   &__item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: var(--primery-color);
+      margin-right: 1rem;
+      padding: 1rem 1rem;
+      border-radius: 1rem;
+
+      & .wrapper {
+         display: flex;
+         gap: 1rem;
+      }
+      &__more {
+         cursor: pointer;
+         font-size: 2rem;
+      }
+      &__name {
+         p:last-of-type {
+            font-size: 1.4rem;
+            color: gray;
+         }
+      }
+   }
+}
+//  progress bar
+.ldBar {
+   & path.mainline {
+      stroke-width: 10;
+      stroke: rgb(0, 179, 255);
+   }
+}

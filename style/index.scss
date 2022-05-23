@@ -1,0 +1,14 @@
+@import "./base/_reset", "./base/typography", "./base/colors", "./base/mixin",
+   "./base/helpers";
+
+@import "./layouts/_nav", "./layouts/_dashboard", "./layouts/_profile",
+   "./layouts/_calendar";
+
+.main {
+   display: flex;
+   height: 100vh;
+   width: 100vw;
+   overflow: hidden;
+}
+
+// --------------------
