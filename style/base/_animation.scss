@@ -1,0 +1,16 @@
+.nav {
+   animation: leftToRight 1s;
+}
+
+.dashboard {
+   transform: translateX(0rem);
+}
+
+@keyframes leftToRight {
+   0% {
+      transform: translateX(-10rem);
+   }
+   100% {
+      transform: translateX(0rem);
+   }
+}
