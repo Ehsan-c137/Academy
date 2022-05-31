@@ -1,7 +1,7 @@
 const navPages = document.querySelector(".nav__pages");
 navPages.addEventListener("click", function (e) {
    const item = e.target;
-
+   if (!item.classList.contains("nav__pages__item")) return;
    navPages
       .querySelector(".nav__pages__item-active")
       .classList.remove("nav__pages__item-active");
