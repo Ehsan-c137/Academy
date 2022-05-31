@@ -48,7 +48,7 @@ html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   scroll-behavior: smooth;
-  font-family: "Lato", "Roboto", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 /* Set core body defaults */
@@ -722,7 +722,7 @@ html {
   -webkit-box-flex: 3;
       -ms-flex-positive: 3;
           flex-grow: 3;
-  gap: 2rem;
+  gap: 1rem;
   padding: 1rem;
 }
 
@@ -807,7 +807,7 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
