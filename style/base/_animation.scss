@@ -14,28 +14,23 @@
    animation-fill-mode: backwards;
 
    img {
-      animation: zeroToOneScale 0.7s 1.7s
-         cubic-bezier(0.175, 0.885, 0.32, 1.275) backwards;
+      animation: zeroToOneScale 0.7s 1.7s backwards;
    }
 }
 // dashboard
 .dashboard__courses__geo {
-   animation: zeroToOne 0.7s 1.7s cubic-bezier(0.175, 0.885, 0.32, 1.275)
-      backwards;
+   animation: zeroToOne 0.7s 1.7s backwards;
 }
 .dashboard__courses__javascript {
-   animation: zeroToOne 0.7s 1.9s cubic-bezier(0.175, 0.885, 0.32, 1.275)
-      backwards;
+   animation: zeroToOne 0.7s 1.9s backwards;
 }
 .dashboard__courses__photography {
-   animation: zeroToOne 0.7s 2.1s cubic-bezier(0.175, 0.885, 0.32, 1.275)
-      backwards;
+   animation: zeroToOne 0.7s 2.1s backwards;
 }
 
 // profile
 .profile__photo {
-   animation: zeroToOne 0.7s 1.9s cubic-bezier(0.175, 0.885, 0.32, 1.275)
-      backwards;
+   animation: zeroToOne 0.7s 1.9s backwards;
 }
 .calendar {
    animation: rightToLeft 0.7s 2s backwards;

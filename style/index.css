@@ -474,28 +474,28 @@ html {
 }
 
 .subscribe__container img {
-  -webkit-animation: zeroToOneScale 0.7s 1.7s cubic-bezier(0.175, 0.885, 0.32, 1.275) backwards;
-          animation: zeroToOneScale 0.7s 1.7s cubic-bezier(0.175, 0.885, 0.32, 1.275) backwards;
+  -webkit-animation: zeroToOneScale 0.7s 1.7s backwards;
+          animation: zeroToOneScale 0.7s 1.7s backwards;
 }
 
 .dashboard__courses__geo {
-  -webkit-animation: zeroToOne 0.7s 1.7s cubic-bezier(0.175, 0.885, 0.32, 1.275) backwards;
-          animation: zeroToOne 0.7s 1.7s cubic-bezier(0.175, 0.885, 0.32, 1.275) backwards;
+  -webkit-animation: zeroToOne 0.7s 1.7s backwards;
+          animation: zeroToOne 0.7s 1.7s backwards;
 }
 
 .dashboard__courses__javascript {
-  -webkit-animation: zeroToOne 0.7s 1.9s cubic-bezier(0.175, 0.885, 0.32, 1.275) backwards;
-          animation: zeroToOne 0.7s 1.9s cubic-bezier(0.175, 0.885, 0.32, 1.275) backwards;
+  -webkit-animation: zeroToOne 0.7s 1.9s backwards;
+          animation: zeroToOne 0.7s 1.9s backwards;
 }
 
 .dashboard__courses__photography {
-  -webkit-animation: zeroToOne 0.7s 2.1s cubic-bezier(0.175, 0.885, 0.32, 1.275) backwards;
-          animation: zeroToOne 0.7s 2.1s cubic-bezier(0.175, 0.885, 0.32, 1.275) backwards;
+  -webkit-animation: zeroToOne 0.7s 2.1s backwards;
+          animation: zeroToOne 0.7s 2.1s backwards;
 }
 
 .profile__photo {
-  -webkit-animation: zeroToOne 0.7s 1.9s cubic-bezier(0.175, 0.885, 0.32, 1.275) backwards;
-          animation: zeroToOne 0.7s 1.9s cubic-bezier(0.175, 0.885, 0.32, 1.275) backwards;
+  -webkit-animation: zeroToOne 0.7s 1.9s backwards;
+          animation: zeroToOne 0.7s 1.9s backwards;
 }
 
 .calendar {
