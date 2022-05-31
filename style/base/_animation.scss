@@ -1,16 +1,81 @@
+// nav
 .nav {
-   animation: leftToRight 1s;
+   &__pages {
+      animation: leftToRight 0.7s;
+      animation-delay: 1.5s;
+      animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+   }
 }
 
-.dashboard {
-   transform: translateX(0rem);
+.subscribe__container {
+   animation: leftToRight 0.8s;
+   animation-delay: 1.7s;
+   animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+   animation-fill-mode: backwards;
+
+   img {
+      animation: zeroToOneScale 0.7s 1.7s
+         cubic-bezier(0.175, 0.885, 0.32, 1.275) backwards;
+   }
+}
+// dashboard
+.dashboard__courses__geo {
+   animation: zeroToOne 0.7s 1.7s cubic-bezier(0.175, 0.885, 0.32, 1.275)
+      backwards;
+}
+.dashboard__courses__javascript {
+   animation: zeroToOne 0.7s 1.9s cubic-bezier(0.175, 0.885, 0.32, 1.275)
+      backwards;
+}
+.dashboard__courses__photography {
+   animation: zeroToOne 0.7s 2.1s cubic-bezier(0.175, 0.885, 0.32, 1.275)
+      backwards;
 }
 
+// profile
+.profile__photo {
+   animation: zeroToOne 0.7s 1.9s cubic-bezier(0.175, 0.885, 0.32, 1.275)
+      backwards;
+}
+.calendar {
+   animation: rightToLeft 0.7s 2s backwards;
+}
+
+// animations
+@keyframes zeroToOne {
+   0% {
+      transform: scale(0);
+   }
+   100% {
+      transform: scale(1);
+   }
+}
+@keyframes zeroToOneScale {
+   0% {
+      width: 0rem;
+   }
+   100% {
+      width: 17rem;
+   }
+}
 @keyframes leftToRight {
    0% {
       transform: translateX(-10rem);
+      opacity: 0;
    }
    100% {
       transform: translateX(0rem);
+      opacity: 1;
+   }
+}
+
+@keyframes rightToLeft {
+   0% {
+      transform: translateX(10rem);
+      opacity: 0;
+   }
+   100% {
+      transform: translateX(0rem);
+      opacity: 1;
    }
 }

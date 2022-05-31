@@ -10,6 +10,6 @@ navPages.addEventListener("click", function (e) {
 });
 
 // page loader
-// setTimeout(() => {
-//    document.querySelector(".loader").classList.add("loader-hidden");
-// }, 1500);
+setTimeout(() => {
+   document.querySelector(".loader").classList.add("loader-hidden");
+}, 1500);
