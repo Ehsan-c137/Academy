@@ -708,7 +708,13 @@ html {
   border-radius: 7px;
   color: white;
   width: 100%;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
   cursor: pointer;
+}
+
+.subscribe__button:hover, .subscribe__button:active {
+  background-color: var(--primery-color-dark);
 }
 
 .dashboard {
