@@ -812,6 +812,19 @@ html {
   outline: none;
 }
 
+.dashboard__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2rem;
+  overflow-y: auto;
+  padding-right: 1rem;
+}
+
 .dashboard__courses__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -947,7 +960,6 @@ html {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 1rem;
-  overflow-y: auto;
 }
 
 .mycourses__header {
